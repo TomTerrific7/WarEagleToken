@@ -1,3 +1,6 @@
+import {useState} from 'react';
+import {ethers} from 'ethers';
+import Token from './artifacts/contracts/Token.sol/WarEagleCoin.json'
 import logo from './logo.svg';
 import './App.css';
 

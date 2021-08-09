@@ -2,7 +2,7 @@
 pragma solidity ^0.8.2;
 
 import "hardhat/console.sol";
-import "/Users/tomterrific/Projects/token-react/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract WarEagleCoin is ERC20 {
     constructor() ERC20("WarEagleCoin", "WDE") {
