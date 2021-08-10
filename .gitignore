@@ -13,8 +13,8 @@
 
 # misc
 .DS_Store
+/.env
 .env
-/Users/tomterrific/Projects/token-react/.env
 
 npm-debug.log*
 yarn-debug.log*
