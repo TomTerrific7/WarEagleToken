@@ -24,6 +24,7 @@ module.exports = {
     ropsten: {
       url: "https://eth-ropsten.alchemyapi.io/v2/aKLCdCQR0UH5AX6qfEGm99AA3qSr_PFg",
       accounts: [process.env.PRIVATE_KEY]
+      //fix url .env
     }
   }
 };
