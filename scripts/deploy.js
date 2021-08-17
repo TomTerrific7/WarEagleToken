@@ -3,7 +3,7 @@ const hre = require("hardhat");
 
 async function main() {
 
- const initialSupply = 1000 * 10 ** 18;
+ const initialSupply = ethers.utils.parseEther("1000");
   const Token = await hre.ethers.getContractFactory("Token");
   const token = await Token.deploy(initialSupply);
 
