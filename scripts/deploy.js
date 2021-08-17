@@ -2,9 +2,10 @@
 const hre = require("hardhat");
 
 async function main() {
- 
+
+ const initialSupply = 1000 * 10 ** 18;
   const Token = await hre.ethers.getContractFactory("Token");
-  const token = await Token.deploy();
+  const token = await Token.deploy(initialSupply);
 
   await token.deployed();
 
